@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: rgb(7, 6, 6);
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 18px -4px white;
+    width: 700px;
+    height: 435px;
+}
+
+.by-mouaz {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.h_1{
+    display: flex;
+    justify-content: center;
+}
+#h1{
+    color: white;
+    border-radius: 2px;
+    color: white;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 3px rgb(72, 70, 70);
+    text-shadow: 1px 0px 7px white;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: -35px;
+}
+/* by mouaz h2 */
+
+.h_2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* timer h2 */
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.zero{
+    border: 2px solid white;
+    box-shadow: 0px 2px 11px 1px white;
+    padding-left: 13px;
+    margin-left: 14px;
+    width: 96px;
+}
+.btn {
+    border: 2px solid white;
+    box-shadow: 0px 0px 18px -4px white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -20px 3px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media(max-width:1075px){
+    .container{
+        height: 390px;
+        width:600px ;
+    }   
+    #h1{
+        font-size: 45px;
+    }
+    .timer {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        margin-top: -50px;
+    }
+    .btn {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin: -25px 3px;
+    }
+}
+
+
+@media (max-width:425px) {
+    .container {
+        width: 300px;
+        height: 400px;
+        /* margin-top: 40px; */
+    }
+
+    
+    .by-mouaz {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .h_1{
+        display: flex;
+        justify-content: center;
+    }
+    #h1{
+        color: white;
+        color: white;
+        font-size: 35px;
+        /* width: 300px; */
+        margin: 50px 42px;
+    }
+    
+    .btn {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin: 20px 3px;
+    }
+    #button{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .timer {
+        margin-top: -25px;
+        width: 290px;
+        font-size: 30px;
+        /* padding: 3px; */
+    }
+}
